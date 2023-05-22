@@ -1,0 +1,16 @@
+{
+
+  "subject": "football",
+  "difficulty": 0,
+  "attempt":0,
+  "entitled": "combien font 1+2 ? ",
+  "second":5,
+  "items": {
+    "A": "1",
+    "B":"2",
+    "C":"3",
+    "D":"4"
+  },
+
+      "answer":"C",
+}

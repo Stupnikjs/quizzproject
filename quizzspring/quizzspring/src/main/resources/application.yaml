@@ -1,0 +1,23 @@
+spring:
+  jpa:
+    show_sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://horton.db.elephantsql.com:5432/vxxssqap
+    driver-class-name: org.postgresql.Driver
+    username: vxxssqap
+    password: nX4LrcOIo9uQ1OQtPpXHm6PEm5MC_lDx
+    hikari:
+      autoCommit: true
+      idleTimeout: 1000
+      minimumIdle: 5
+      maximumPoolSize: 2
+      maxLifetime: 30000
+      poolName: HikariQuizz
+
+
+
+
+server:
+  port: 8080
